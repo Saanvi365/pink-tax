@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>pink tax - the cost of being a female consumer</title>
+<meta name="description" content="interactive data viz of the pink tax: how much more women's products cost than near-identical men's versions.">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main>
+  <header>
+    <h1>the pink tax</h1>
+    <p class="lede">
+      same brand, same product, different color, higher price. the nyc department of
+      consumer affairs compared 794 gendered products and found the women's version
+      cost more <strong>42% of the time</strong> - the men's, only 18%. explore it below.
+    </p>
+  </header>
+
+  <nav id="tabs" aria-label="product categories"></nav>
+
+  <section id="chart-section">
+    <div id="category-summary" class="summary"></div>
+    <div id="chart" role="img" aria-label="paired price comparison chart"></div>
+    <div class="legend">
+      <span class="swatch men"></span> men's version
+      <span class="swatch women"></span> women's version
+    </div>
+  </section>
+
+  <section id="calculator">
+    <h2>what does it cost you?</h2>
+    <p class="muted">check what you buy, set how often, and see the yearly gap.</p>
+    <div id="calc-list"></div>
+    <div id="calc-result" class="result" aria-live="polite"></div>
+  </section>
+
+  <footer>
+    <p id="source"></p>
+    <p>built by <a href="https://saanvi365.github.io/">saanvi gunukula</a> ·
+       <a href="https://github.com/Saanvi365/pink-tax">source</a></p>
+  </footer>
+</main>
+<script src="data.js"></script>
+<script src="calc.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
