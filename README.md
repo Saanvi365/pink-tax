@@ -2,7 +2,7 @@
 
 An interactive data visualization of the "pink tax" - how much more the women's version of a product costs than the near-identical men's version. Open `index.html` in a browser; no build step, no dependencies.
 
-Live demo: https://saanvi365.github.io/pink-tax/ (once GitHub Pages is enabled on this repo)
+Live demo: https://saanvigunu.github.io/pink-tax/ (once GitHub Pages is enabled on this repo)
 
 ## What it does
 
